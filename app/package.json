@@ -1,12 +1,15 @@
 {
   "name": "app",
   "version": "0.1.0",
+  "main": "sass/mystyles.scss",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/bulma.css",
+    "css-watch": "npm run css-build -- --watch"
   },
   "dependencies": {
     "bulma": "^0.9.3",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5"
+    "eslint-config-next": "12.1.5",
+    "node-sass": "^7.0.1"
   }
 }
