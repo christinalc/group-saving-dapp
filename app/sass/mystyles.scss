@@ -3,18 +3,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
 
 $blue: #1890FF; 
+$dark-blue: #0050B3; 
+//$light-blue
+$white: #ffffff; 
+$grey-900: #141414; 
+$grey-800: #434343; 
+$grey-200: #f0f0f0; 
+$container-max-width: 1152px; 
 
-$family-sans-serif: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$family-sans-serif: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+//how to change font size 
 
 $primary: $blue;
+$text: $white; 
+$body-background-color: $grey-900; 
+$navbar-background-color: $grey-900; 
+$notification-background-color: $dark-blue; 
+
+$title-color: $white; 
+$title-size: 4rem; 
+$title-weight: regular; 
+$text-strong: $white; 
+
+$button-ghost-hover-decoration: none; 
+$button-ghost-border-color: $white; 
+$button-ghost-color: $white; 
+$button-ghost-hover-color: $grey-200; 
+
+$table-background-color: $grey-900; 
 
 //import the things from bulma 
 //@import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/table.sass";
 @import "../node_modules/bulma/sass/form/_all.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/message.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
