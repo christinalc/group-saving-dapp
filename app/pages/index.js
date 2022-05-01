@@ -34,17 +34,18 @@ export default function Home() {
         </div>
 
         <div className="columns">
-          <div className="column is-two-thirds mx-3">
+          <div className="column is-7 mx-3">
             <p>SAVINGS</p><break></break>
             <h1 class="title">0.01 ETH</h1>
           </div> 
 
-          <div className="column is-one-third mb-4 mx-3">
+          <div className="column is-5 mb-4 mx-3">
             <p>MEMBERS</p>
             <ol class="ml-4">
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
+              <li>0x1c73d1074d779a7b64fede19313ac53c8fd533bf</li>
+              <li>0xf91A8511487E78Bf4dB3c2B10b566B92B430ecC7</li>
+              <li>0xef10899B6C17747381C66Bc1BFD48679Fa682c35</li>
+              <li>0xf432702bB55eD4bf9F8364f6f17F0a19b5d3451D</li>
             </ol>
           </div>
         </div>
@@ -83,12 +84,13 @@ export default function Home() {
           </table>
         </div> 
 
+        <footer className={styles.footer}>
+          <p>Built by Christina Chen</p>
+        </footer>
+
         </div> 
       </main>
 
-      <footer className={styles.footer}>
-        <p>Built by Christina Chen</p>
-      </footer>
     </div>
 
   )

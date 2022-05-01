@@ -12,7 +12,6 @@ $grey-200: #f0f0f0;
 $container-max-width: 1152px; 
 
 $family-sans-serif: "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
-//how to change font size 
 
 $primary: $blue;
 $text: $white; 
@@ -31,6 +30,9 @@ $button-ghost-color: $white;
 $button-ghost-hover-color: $grey-200; 
 
 $table-background-color: $grey-900; 
+$table-head-background-color: $grey-800; 
+$table-cell-border: none; 
+//$table-cell-padding: 0.6em; 
 
 //import the things from bulma 
 //@import "../node_modules/bulma/bulma.sass";
