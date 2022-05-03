@@ -53,7 +53,7 @@ export default function Home() {
       <Head>
         <title>Group Saving dApp</title>
         <meta name="description" content="Decentralized group saving based on the concept of ROSCAs" />
-        <link rel="icon" href="public/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
       </Head>
 
       <main className>
