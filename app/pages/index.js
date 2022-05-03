@@ -3,10 +3,10 @@ import Head from 'next/head'
 import Web3 from 'web3' 
 import styles from '../styles/Home.module.css'
 //import dynamic from 'next/dynamic'
-//import 'bulma/css/bulma.css'
+//import 'bulma/css/bulma.css' 
 
 export default function Home() {
-  
+
   const [web3, setWeb3] = useState()
   const [error, setError] = useState('')
   const [successMsg, setSuccessMsg] = useState('')
