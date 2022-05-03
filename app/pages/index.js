@@ -6,6 +6,10 @@ import styles from '../styles/Home.module.css'
 //import 'bulma/css/bulma.css'
 
 export default function Home() {
+  
+  const [web3, setWeb3] = useState()
+  const [error, setError] = useState('')
+  const [successMsg, setSuccessMsg] = useState('')
 
   const connectWalletHandler = async () => {
     setError('')
