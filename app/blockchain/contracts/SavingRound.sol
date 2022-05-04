@@ -17,11 +17,11 @@ contract SavingRound is VRFConsumerBase {
             fee = 0.1 * 10 ** 18;    // 0.1 LINK
 
             owner = msg.sender;
-            lotteryId = 1;
+            savingId = 1;
         }
 
-    function getReceiver(uint lottery) public view returns (address payable) {
-        return lotteryHistory[lottery];
+    function getReceiver(uint saving) public view returns (address payable) {
+        return saving[saving];
     }
 
     function getBalance() public view returns (uint) {
